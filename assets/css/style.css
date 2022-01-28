@@ -1535,7 +1535,7 @@ HEADER: Responsive
     display: inline-block;
   }
   #header #logo > a img {
-    max-height: 80px;
+    height: 30px;
     padding-bottom: 6px;
   }
   #header #logo .logo-responsive {
