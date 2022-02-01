@@ -1535,7 +1535,7 @@ HEADER: Responsive
     display: inline-block;
   }
   #header #logo > a img {
-    max-height: 80px;
+    height: 30px;
     padding-bottom: 6px;
   }
   #header #logo .logo-responsive {
@@ -17686,9 +17686,9 @@ body.breakpoint-xl .pricing-table .col-lg-2 .plan-list ul li, body.breakpoint-lg
   border-radius: 50%;
   display: block;
   float: none;
-  height: 72px;
+  height: 95px;
   margin: 0 auto 10px;
-  width: 72px;
+  width: 95px;
 }
 .testimonial .testimonial-item > p {
   font-size: 15px;
