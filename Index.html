@@ -20,6 +20,7 @@
           href="assets/css/slider-revolution/pe-icon-7-stroke.css">
     <link rel="stylesheet" type="text/css" href="assets/css/slider-revolution/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="assets/css/slider-revolution/settings.css">
+    <link rel="stylesheet" href="assets/css/jquery.toast.min.css">
 
     <style type="text/css">
         .blurslider-gradient {
@@ -2647,32 +2648,32 @@
                 <div class="col-lg-6">
                     <h3 class="text-uppercase">Get In Touch</h3>
                     <div class="m-t-30">
-                        <form class="widget-contact-form" novalidate action="include/contact-form.php" role="form"
-                              method="post">
+                        <form id="contactSection">
                             <div class="row">
                                 <div class="form-group col-md-6">
-                                    <input type="text" aria-required="true" name="widget-contact-form-name" required
+                                    <input type="text" aria-required="true" name="name" id="userName"
                                            class="form-control required name" placeholder="Enter your Name">
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <input type="email" aria-required="true" name="widget-contact-form-email" required
+                                    <input type="email" aria-required="true" name="email" id="email"
                                            class="form-control required email" placeholder="Enter your Email">
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <input type="text" name="widget-contact-form-subject" required
+                                    <input type="text" name="subject" id="subject"
                                            class="form-control required" placeholder="Subject...">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <textarea type="text" name="widget-contact-form-message" required rows="5"
+                                <textarea type="text" name="message" rows="5" id="message"
                                           class="form-control required" placeholder="Enter your Message"></textarea>
                             </div>
 
                             <button class="btn" type="submit" id="form-submit"><i class="fa fa-paper-plane"></i>&nbsp;Send
                                 message
                             </button>
+
                         </form>
                     </div>
                 </div>
@@ -2690,15 +2691,6 @@
         <div class="footer-content">
             <div class="container">
                 <div class="row">
-                    <!--
-                                        <div class="col-lg-5">
-                                            <div class="widget">
-                                                <div class="widget-title">Logo</div>
-                                                <p class="mb-5">Built with love in Fort Worth, Texas, USA<br>
-                                                    All rights reserved. Copyright © 2021. Softcosol.</p>
-                                            </div>
-                                        </div>
-                    -->
                     <div class="col-lg-12">
                         <div class="row">
                             <div class="col-lg-2">
@@ -2755,8 +2747,12 @@
 <a id="scrollTop"><i class="icon-chevron-up"></i><i class="icon-chevron-up"></i></a>
 
 <script src="assets/js/plugins.js"></script>
-
 <script src="assets/js/functions.js"></script>
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/jQuery.validation.min.js"></script>
+<script src="assets/js/jquery.toast.min.js"></script>
+<script src="assets/js/toaster.js"></script>
+<script src="assets/js/contact.js"></script>
 
 </body>
 </html>
