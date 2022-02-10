@@ -39,7 +39,7 @@ $(document).ready(function () {
         /*JSON based Contact API Call with POST method*/
         $.ajax({
             type: "POST",
-            url: 'https://e271h3f55k.execute-api.us-east-1.amazonaws.com/dev/sendnotification-v1',
+            url: 'https://py7i08t1sb.execute-api.us-east-1.amazonaws.com/dev/sendnotification-v1',
             cache: false,
             crossDomain: true,
             contentType: "application/json",
